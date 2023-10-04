@@ -1,20 +1,22 @@
 public class Operadores {
     public static void main(String[] args) {
-        String concatenacao = "?";
+        int numero = 5;
 
-        concatenacao = 1+1+1+"1";
-        System.out.println(concatenacao);
+        numero = - numero;
+        System.out.println(numero);
+        numero = - numero;
+        System.out.println(numero);
 
-        concatenacao = 1+"1"+1+1;
-        System.out.println(concatenacao);
+        numero = numero +1; // incremento
+        System.out.println(numero);
+        numero++; //incremento
+        System.out.println(numero);
+        System.out.println(++numero);//incremento e impressao
 
-        concatenacao = 1+"1"+1+"1";
-        System.out.println(concatenacao);
-
-        concatenacao = "1"+1+1+1;
-        System.out.println(concatenacao);
-
-        concatenacao = "1"+(1+1+1);
-        System.out.println(concatenacao);
+        numero+=2;
+        System.out.println(numero);
+        System.out.println(numero+=2);
+        System.out.println(numero);
+        System.out.println(numero/=2);
     }
 }
